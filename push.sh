@@ -15,5 +15,3 @@ cd "$baseball" || exit
 git add .
 npm run commit
 git push origin
-# git push pofi
-# git push pofi-create
