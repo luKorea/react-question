@@ -5,7 +5,7 @@ import routes from './router'
 function App() {
   return (
     <div className="App">
-      <Suspense fallback={'loading...'}>{useRoutes(routes)}</Suspense>
+      <Suspense fallback="">{useRoutes(routes)}</Suspense>
     </div>
   )
 }
